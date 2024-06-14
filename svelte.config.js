@@ -6,7 +6,7 @@ const config = {
   kit: {
     alias: {
       $lib: 'src/lib',
-      framework: 'src/lib'
+      'web-component-framework': 'src'
     },
     adapter: adapter()
   }

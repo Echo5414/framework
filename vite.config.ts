@@ -7,7 +7,7 @@ export default defineConfig({
   resolve: {
     alias: {
       $lib: path.resolve(__dirname, 'src/lib'),
-      framework: path.resolve(__dirname, 'src')
+      'web-component-framework': path.resolve(__dirname, 'src')
     }
   }
 });

@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
 
   onMount(async () => {
-    const { registerCustomElements, HelloWorldElement, IconElement } = await import('framework');
+    const { registerCustomElements, HelloWorldElement, IconElement } = await import('web-component-framework');
     registerCustomElements({
       'hello-world-element': HelloWorldElement,
       'app-icon': IconElement
