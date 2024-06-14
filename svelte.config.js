@@ -6,7 +6,7 @@ const config = {
   kit: {
     alias: {
       $lib: 'src/lib',
-      'framework': 'src/lib' // Make sure this matches your Vite config
+      framework: 'src/lib'
     },
     adapter: adapter()
   }

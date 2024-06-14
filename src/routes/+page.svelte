@@ -8,5 +8,5 @@
 </script>
 
 <h1 app-p-xs="12">Hallo</h1>
-<hello-world app-p-xs="12"></hello-world>
+<hello-world></hello-world>
 <app-icon width="64" height="64" fill="blue">icon-user</app-icon>

@@ -7,7 +7,7 @@ export default defineConfig({
   resolve: {
     alias: {
       $lib: path.resolve(__dirname, 'src/lib'),
-      framework: path.resolve(__dirname, 'src') // Ensure this is pointing correctly
+      framework: path.resolve(__dirname, 'src')
     }
   }
 });

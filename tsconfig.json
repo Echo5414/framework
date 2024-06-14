@@ -14,7 +14,7 @@
     "baseUrl": ".",
     "paths": {
       "$lib/*": ["src/lib/*"],
-      "framework": ["src"] // Ensure this is pointing correctly
+      "framework": ["src"]
     },
     "types": ["node"]
   },
