@@ -23,7 +23,7 @@
     "src/**/*.ts",
     "src/**/*.js",
     "src/**/*.svelte",
-    "src/custom-jsx.d.ts"
+    "src/framework.d.ts"
   ],
   "exclude": ["node_modules"]
 }

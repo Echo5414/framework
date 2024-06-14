@@ -10,4 +10,8 @@ class HelloWorldElement extends HTMLElement {
   }
 }
 
+if (typeof window !== 'undefined' && !customElements.get('hello-world-element')) {
+  customElements.define('hello-world-element', HelloWorldElement);
+}
+
 export default HelloWorldElement;
