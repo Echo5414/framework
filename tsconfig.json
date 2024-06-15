@@ -14,7 +14,7 @@
     "baseUrl": ".",
     "paths": {
       "$lib/*": ["src/lib/*"],
-      "web-component-framework": ["src"]
+      "web-component-framework": ["src/lib"]
     },
     "types": ["node"]
   },
@@ -23,7 +23,7 @@
     "src/**/*.ts",
     "src/**/*.js",
     "src/**/*.svelte",
-    "src/web-component-framework.d.ts"
+    "src/lib/framework.d.ts"
   ],
   "exclude": ["node_modules"]
 }

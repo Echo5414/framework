@@ -5,7 +5,7 @@ class HelloWorldElement extends HTMLElement {
     super();
     const shadow = this.attachShadow({ mode: 'open' });
     const div = document.createElement('div');
-    div.textContent = 'Hello, World!';
+    div.textContent = 'Hello, World! 1337';
     shadow.appendChild(div);
   }
 }
