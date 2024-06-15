@@ -10,7 +10,7 @@ npm install web-component-framework@latest
 
 ## Step 2
 
-Add this line to your `+page.svelte` or `+layout.svelte` in your Svelte-App.
+Import and register Web Components into your `+page.svelte` or `+layout.svelte`.
 
 ```ts
   import { onMount } from 'svelte';
@@ -26,12 +26,23 @@ Add this line to your `+page.svelte` or `+layout.svelte` in your Svelte-App.
 
 ## Step 3
 
-Add this line to your `app.d.ts` in your Svelte-App.
+Add this line to your `app.d.ts` in your Svelte-App to get rid of HTML-Attribute-Errors in your IDE.
 
 ```ts
 // Reference the custom JSX types
 /// <reference path="../node_modules/web-component-framework/dist/custom-jsx.d.ts" />
 ```
+
+## Step 4
+
+Include Web Components into your HTML.
+
+```html
+<hello-world-element app-p-xs="12"></hello-world-element>
+<app-icon width="64" height="64" fill="blue">icon-user</app-icon>
+```
+
+---
 
 # NPM Package
 https://www.npmjs.com/package/web-component-framework
