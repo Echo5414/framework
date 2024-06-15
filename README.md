@@ -10,6 +10,22 @@ npm install web-component-framework@latest
 
 ## Step 2
 
+Add this line to your `+page.svelte` or `+layout.svelte` in your Svelte-App.
+
+```ts
+  import { onMount } from 'svelte';
+
+  onMount(async () => {
+    const { registerCustomElements, HelloWorldElement, IconElement } = await import('web-component-framework');
+    registerCustomElements({
+      'hello-world-element': HelloWorldElement,
+      'app-icon': IconElement
+    });
+  });
+```
+
+## Step 3
+
 Add this line to your `app.d.ts` in your Svelte-App.
 
 ```ts
