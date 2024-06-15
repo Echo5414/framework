@@ -5,7 +5,6 @@ const config = {
   preprocess: sveltePreprocess(),
   kit: {
     alias: {
-      $lib: 'src/lib',
       'web-component-framework': 'src/lib'
     },
     adapter: adapter()
