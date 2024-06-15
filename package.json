@@ -1,13 +1,13 @@
 {
   "name": "web-component-framework",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A framework for reusable web components.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/Echo5414/framework.git"
+    "url": "https://github.com/Echo5414/web-component-framework.git"
   },
   "keywords": [
     "svelte",
@@ -50,7 +50,6 @@
   },
   "files": [
     "dist/**/*",
-    "src/lib/custom-jsx.d.ts",
-    "src/lib/framework.d.ts"
+    "src/lib/custom-jsx.d.ts"
   ]
 }

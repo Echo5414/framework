@@ -1,4 +1,26 @@
+
+# Installation
+
+## Step 1
+
+```bash
+# Install the module
+npm install web-component-framework@latest
+```
+
+## Step 2
+
+Add this line to your `app.d.ts` in your Svelte-App.
+
+```ts
+// Reference the custom JSX types
+/// <reference path="../node_modules/web-component-framework/dist/custom-jsx.d.ts" />
+```
+
+# NPM Package
 https://www.npmjs.com/package/web-component-framework
+
+---
 
 # create-svelte
 
